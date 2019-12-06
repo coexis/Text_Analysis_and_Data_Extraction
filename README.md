@@ -1,11 +1,11 @@
-# EDGAR-reports-Text-Analysis
-Data from EDGAR filling was extracted and text analysis was performed.
+# Company-reports-Text-Analysis
+Data  filling was extracted and text analysis was performed.
 
-In this project, text data extraction and text analytics was performed on EDGAR filling. The analysis was on done on 10k and 10Q filling. It was performed using python.
+In this project, text data extraction and text analytics was performed on Data filling. The analysis was on done on 10k and 10Q filling. It was performed using python.
 
 ## Input
 
-The input files consist of different filling from EDGAR. The format was .txt. Total 152 files were processed. 
+The input files consist of different filling from Data. The format was .txt. Total 152 files were processed. 
 
 ## Extraction and Analysis
 
@@ -40,7 +40,6 @@ Polarity Score: This is the score that determines if a given text is positive or
 **Polarity Score** = (Positive Score – Negative Score)/ ((Positive Score + Negative Score) + 0.000001)
 Range is from -1 to +1
 
-All the required dictionaries were created using -  https://sraf.nd.edu/textual-analysis/resources/#LM%20Sentiment%20Word%20Lists
 
 ### Analysis of Readability
 
@@ -62,7 +61,7 @@ where Complex words are words in the text that contain more than two syllables.
 •	constraining word score and proportion
 
 Instruction to execute the python note book and script are included in Execution instrictions.pdf
-Financial reports can be downloaded from EDGAR server during offline hours.
+Financial reports can be downloaded from Data server during offline hours.
 
 All the required dictionaries are included in the git. 
 
